@@ -1,0 +1,38 @@
+git config --global user.email orix__@hotmail.com
+git config --global user.name Orix101
+git config --global -e
+
+git config --global -l
+
+git config --list
+
+git config user.email
+
+git config user.name
+
+**********
+CREAR REPOSITORIO
+* Crear carpetas
+mkdir Carpeta
+cd Carpeta
+
+* Crear archivos
+touch archivo.ext
+
+* Inicializar (MASTER)
+@ Carpeta .git se crea una sola vez por proyecto
+git init
+
+git status
+
+git add	/ git add .
+
+git add archivo.ext
+git status
+
+* Empaquetar todo (finalizo versión)
+git commit -m "20210822 Ver_1.0"
+
+
+*******
+Ctrl + L Limpiar pantalla
