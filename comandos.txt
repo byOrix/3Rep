@@ -33,6 +33,11 @@ git status
 * Empaquetar todo (finalizo versión)
 git commit -m "20210822 Ver_1.0"
 
+* Mostrar diferencias de contenido en archivos
+git diff 
+
+* Deshacer commit  a REVISION]
+git reset HEAD Archivo.ext
 
 *******
 Ctrl + L Limpiar pantalla
