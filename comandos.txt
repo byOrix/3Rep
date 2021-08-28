@@ -39,5 +39,22 @@ git diff
 * Deshacer commit  a REVISION]
 git reset HEAD Archivo.ext
 
-*******
+* Crear versión de revisión
+git commit -m "NombreRevis"
+git commit -m "2doCommit"
+
+* Para volver a la revisión anterior
+git checkout .
+
+@ deshace cambios en archivos
+
++ + + + + + + + + + + + + +
+* Ver HISTORIAL de cambios
+git log
+
++ + + + + + + + + + + + + +
+Volver a una Versión específica
+
+
+* * * * * * * * * * * * * *
 Ctrl + L Limpiar pantalla
